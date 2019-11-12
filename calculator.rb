@@ -11,4 +11,5 @@ end
     expect(second_number).not_to equal(0)
 end  
 
-it "contains a local variable called sum"
+it "contains a local variable called sum that is assigned to the result of adding first_number and second_number" do
+  first_number = get_variable_from_file('./calculator.rb',"first_number")
