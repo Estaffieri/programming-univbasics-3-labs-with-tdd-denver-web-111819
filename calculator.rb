@@ -10,3 +10,5 @@ end
     expect(second_number).to be_an(Integer).or be_a(Float)
     expect(second_number).not_to equal(0)
 end  
+
+it "contains a local variable called sum"
